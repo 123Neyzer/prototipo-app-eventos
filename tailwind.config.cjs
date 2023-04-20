@@ -18,3 +18,4 @@ module.exports = {
     require('flowbite/plugin') //Esta linea se agrega para cargar la declaración del plugin Flowbite
   ],
 }
+
