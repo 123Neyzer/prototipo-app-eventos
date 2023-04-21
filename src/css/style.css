@@ -125,13 +125,12 @@ header {
       @apply w-10 h-10 bg-red-500 text-white;
     }
 
-  
-
 
 
     .headT {
         @apply grid grid-cols-1 text-left leading-3 mt-8 mx-auto max-w-lg;
     }
+    
     
     .lineas {
         @apply grid grid-cols-2 text-left mt-4 mx-auto max-w-lg;
@@ -163,5 +162,5 @@ header {
     
     .pre1-1 {
         @apply grid grid-cols-2 mt-7 text-left; 
-    }
+     } 
      
