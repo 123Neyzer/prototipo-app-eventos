@@ -1,6 +1,6 @@
-let header = document.getElementById('header')
-if (header){
-header.innerHTML = ` <!-- Encabezado de la aplicacion -->
+let header2 = document.getElementById('header2')
+if (header2){
+header2.innerHTML = `<!-- Encabezado de la aplicacion -->
 <header class="flex flex-row justify-between items-center p-4 bg-white">
   <div>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left text-black" viewBox="0 0 16 16">

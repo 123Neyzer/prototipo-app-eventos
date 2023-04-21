@@ -12,3 +12,7 @@ import './slider'
 
 //importar el header
 import './header'
+
+import './header1'
+
+import './header2'
