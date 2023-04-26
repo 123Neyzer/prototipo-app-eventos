@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply text-gray-300 p-0 m-0;
+    @apply mb-24 text-gray-300 p-0 m-0 ;
 }
 
 header {
@@ -163,7 +163,7 @@ header {
     .pre1-1 {
         @apply grid grid-cols-2 mt-7 text-left; 
      } 
-  
+   /* estilos del archivo perfil.html */
      .botonperfil1{
         @apply text-center ml-32 mr-4 max-w-fit;
         background-color: rgb(203, 39, 88);
@@ -204,7 +204,7 @@ header {
     background-color: white;
     padding: 8px;
     margin: 12px;
-    padding-bottom: 80px;
+    
     }
     .botondecontenedor4{
         float: right;
@@ -214,4 +214,35 @@ header {
         padding-left: 6px;
         padding-right: 6px;
         margin: 6px;
+    }
+/* estilos del archivo tickets.html */
+    .botont1{
+        @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-fit;
+        background-color: rgb(203, 39, 88);
+        color:white;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius:  6px;
+    }
+    .botont2{
+        @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-fit;
+        background-color: white;
+        color:rgb(0, 0, 0);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius:  6px;
+    }
+    .botont3{
+        @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-fit;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius:  6px;
     }
