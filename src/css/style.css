@@ -163,6 +163,8 @@ header {
     .pre1-1 {
         @apply grid grid-cols-2 mt-7 text-left; 
      } 
+
+
     /* estilos del archivo perfil.html */
    .contenedordebotonesperfil{
      display: flex;
@@ -171,7 +173,7 @@ header {
    }
     .botonperfil1{
         @apply text-center  max-w-fit;
-        background-color: rgb(203, 39, 88);
+        background-color: rgb(255, 58, 117);
         color:white;
         padding: 3px ;
         border-radius:  6px;
@@ -181,7 +183,7 @@ header {
      }
      .botonperfil2{
         @apply text-center  max-w-fit;
-        background-color: rgb(255, 255, 255);
+        background-color: white;
         color:rgb(0, 0, 0);
         padding: 3px ;
         border-radius:  6px;
@@ -200,7 +202,7 @@ header {
     }
     .botondecontenedor3{
         float: right;
-        background-color: rgb(203, 39, 88);
+        background-color:  rgb(255, 58, 117);
         border-radius: 15px;
         padding: 2px;
         padding-left: 6px;
@@ -217,13 +219,17 @@ header {
     }
     .botondecontenedor4{
         float: right;
-        background-color: rgb(203, 39, 88);
+        background-color:  rgb(255, 58, 117);
         border-radius: 15px;
         padding: 2px;
         padding-left: 6px;
         padding-right: 6px;
         margin: 6px;
     }
+
+
+
+    
 /* estilos del archivo tickets.html */
 
     .botont1{
